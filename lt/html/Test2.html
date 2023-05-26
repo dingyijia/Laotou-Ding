@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- <script src="../jQuery/jQuery.js"></script> -->
+    <link
+      href="https://cdn.bootcdn.net/ajax/libs/Swiper/3.4.2/css/swiper.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body,
+    html {
+      background-color: rgb(179, 179, 179);
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    * {
+      font-family: Source Code Variable Black Italic;
+      padding: 0;
+      margin: 0;
+    }
+
+    p {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      line-height: 30px;
+    }
+
+    .main {
+      width: 1280px;
+      height: 720px;
+      background-color: lightgray;
+      position: relative;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .pre {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 999;
+    }
+
+    .swiper-container {
+      width: 110%;
+      transform: translateX(-5%);
+      height: 100%;
+    }
+
+    .swiper-wrapper {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      width: 585px;
+      height: 604px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .innner-swiper-slide {
+      width: 210px;
+      height: 550px;
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .swiper-slide-active .innner-swiper-slide {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide-active {
+      width: 585px;
+      height: 604px;
+      background-image: url("../iamges/barrage shanghai-08.jpg");
+      background-size: 250px 550px;
+      background-position: center top;
+      background-repeat: no-repeat;
+    }
+
+    .dropdown {
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      right: 100px;
+      z-index: 999;
+      cursor: pointer;
+      font-family: "Source Code Variable Italic";
+    }
+    .dropdown:hover {
+      color: rgb(255, 0, 242);
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 160px;
+      padding: 10px 0;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* 滚动槽 */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.06);
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.08);
+    }
+    /* 滚动条滑块 */
+    ::-webkit-scrollbar-thumb {
+      border-radius: 3px;
+      background: rgba(0, 0, 0, 0.12);
+      -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="innner-swiper-slide">
+              <div class="leftchildren"></div>
+              <h2>child</h2>
+              <br />
+              <p style="color: rgb(255, 0, 242)">book design</p>
+              <br />
+              <p>Medium: Print</p>
+              <br />
+              <p>Materials: silk paper, newsprint</p>
+              <br />
+              <p>
+                Reading the church bell ringing the old man recalls his life,
+                after all is still a child.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="innner-swiper-slide">
+              <div class="cchildren1"></div>
+              <div class="cchildren2"></div>
+              <h1 style="font-family: 'Source Code Variable bold'">
+                Barrage Shanghai
+              </h1>
+              <br />
+              <p
+                style="
+                  color: rgb(255, 0, 242);
+                  font-family: 'Source Code Variable light';
+                "
+              >
+                book design
+              </p>
+              <br />
+              <p style="font-family: 'Source Code Variable bold'">
+                Medium: Print
+              </p>
+              <br />
+              <div
+                style="
+                  overflow: auto;
+                  height: 380px;
+                  font-family: 'Source Code Variable regular';
+                "
+              >
+                <p>Team member: Kong Jiahui, Chen Mengdan</p>
+                <br />
+                <p>
+                  The book is written in chronological order. Words are the
+                  carrier of urban flow, and signboards are the barrage of a
+                  city. We have collected pictures of signboards from the 1940s
+                  to the present. Our book also unfolds in the form of bullet
+                  screen, in today's rapid development of the city, the
+                  signboard characters as ten or even decades of old residents
+                  witness the city's changes. Signboard characters carry the
+                  traces of city characters for nearly a hundred years.
+                  Different signboard characters in the city have become the
+                  records of economy, commerce and culture in different times of
+                  the city. They also witness the food, handicraft industry and
+                  daily space inherited from the traditional way of life.
+                  Signboards and other carriers become the cultural skin of the
+                  city. We explore the collective era memory and background, as
+                  well as the signboards of current Shanghai. Signboards have
+                  become the spokesmen of urban culture, as well as the voice of
+                  buildings, streets and cities.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="innner-swiper-slide">
+              <div class="rightchildren"></div>
+              <h2 style="color: rgb(0, 0, 0)">No copying</h2>
+              <br />
+              <p style="color: rgb(255, 0, 242)">Brand design/book design</p>
+              <br />
+              <p>Medium: books, posters, calendars, stamps, modeling</p>
+              <br />
+              <p>
+                Starting from the introduction of the various types of
+                traditional Chinese utensils, the author compares modern POTS
+                and utensils under the influence of western minimalist style and
+                commercialization, which are made into templates and constantly
+                copied, and lose their original handmade beauty.
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="pre" href="./lt.html">Yijia Ding</a>
+      <div class="dropdown">
+        <span>Book design</span>
+        <div class="dropdown-content">
+          <a href="./lt.html">brand design</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+  </body>
+  <script>
+    var mySwiper = new Swiper(".swiper-container", {
+      centeredSlides: true,
+      loop: true,
+      slidesPerView: 3,
+      spaceBetween: 100,
+    });
+  </script>
+</html>
