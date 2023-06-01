@@ -1,0 +1,146 @@
+* {
+    font-family: 'Source Code Variable';
+}
+body {
+    background-color: rgb(184, 184, 184);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 80%;
+    text-align: left;
+}
+
+.right {
+    width: 100%;
+    text-align: justify;
+    font-family: 'Source Code Variable regular';
+}
+
+.qq {
+    color: rgb(255, 0, 242);
+    font-family: 'SourceCodeVariable-Italic';
+}
+
+.yijia {
+    font-size: 48px;
+    font-family: 'SourceCodeVariable-Roman';
+}
+
+.name {
+    
+    color: rgb(255, 0, 242);
+    font-family: 'SourceCodeVariable-Italic';
+}
+
+.text {
+   
+    font-size: 21px;
+    color: rgb(255, 0, 242);
+    transition: font-size 0.5s, color 0.5s;
+    /* 设置过渡效果 */
+}
+
+.text:hover {
+    font-size: 50px;
+    color: rgb(212, 255, 0);
+    cursor: pointer;
+   
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.bk1{
+    background-repeat: no-repeat;
+    background-image: url('../iamges/brand design_画板 1.jpg');
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+.bk2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-image: url('../iamges/book design_画板 1 副本 6.jpg');
+}
+.bk3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-image: url('../iamges/photography works_画板 1 副本 6.jpg');
+}
+.bk4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-image: url('../iamges/life breeding base_画板 1 副本 14.jpg');
+}
+.bk5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-image: url('../iamges/D+_画板 1 副本 14.jpg');
+}
+.bk6{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-image: url('../iamges/subway stations and cities_画板 1 副本 14.jpg');
+}
+.bk7{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-image: url('../iamges/sasa group_画板 1 副本 14.jpg');
+}
+.bk8{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-image: url('../iamges/no copying_画板 1 副本 14.jpg');
+}
+.pink {
+    font-family: 'SourceCodeVariable-Italic';
+    color: rgb(255, 0, 242);
+}
+
+.a1{
+    color: rgb(255, 0, 242);
+    font-family: 'SourceCodeVariable-Italic';
+}
+
+#green{
+    font-size: 21px;
+    color: rgb(255, 0, 242);
+    transition: font-size 0.5s, color 0.5s;
+    font-family: 'SourceCodeVariable-Italic';
+    /* 设置过渡效果 */
+  
+}
+#green:hover {
+    font-size: 60px;
+    color: rgb(212, 255, 0);
+    cursor: pointer;
+    font-family: 'SourceCodeVariable-Italic';
+ 
+}
+a{ text-decoration: none;
+ 
+}
