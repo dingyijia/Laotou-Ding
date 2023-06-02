@@ -88,18 +88,22 @@ img {
 
 .change_div{
     /* width: 600px; */
-    height: 800px;
+    bottom: 0;
+    height: 80vh;
+    transition: all 0.4s ease-in-out; /* 添加过渡效果 */
 }
 
 .box_show_img{
     max-width: 130%;
-    height:800px;
+  height:80vh;
     position: absolute;
     /* top: 170px; */
-    bottom: 0%;
+    bottom: 0;
     left: 33%;
     transform: translate(-50%,0);
     /* background-color: aqua; */
+    transition: all 3s ease-in-out; /* 添加过渡效果 */
+
 }
 
 #box_show_img_line{
@@ -137,9 +141,13 @@ h3{
 }
 @font-face {
 	font-family: 'SourceCodeVariable-Roman';
-	src: url('../../font/SourceCodeVariable-Roman\ \(2\).ttf') format('woff'),
-	     url('../../font/SourceCodeVariable-Roman\ \(2\).ttf') format('truetype');
-	font-style: normal;
-	font-weight: 400;
-}
+	src: url('../../font/SourceCodeVariable-Roman.ttf') format('truetype'),
+	     url('../../font/SourceCodeVariable-Roman.ttf') format('truetype');
 
+}
+@font-face {
+	font-family: 'SourceCodeVariable-Italic';
+	src: url('../../font/SourceCodeVariable-Italic.ttf') format('truetype'),
+	     url('../../font/SourceCodeVariable-Italic.ttf') format('truetype');
+
+}

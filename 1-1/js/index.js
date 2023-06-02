@@ -1,6 +1,6 @@
 (function () {
     let imgs = document.querySelector('.top_pos')
-    for(let i=0;i<33;i++){
+    for(let i=0;i<30;i++){
         let div = document.createElement('div')
         div.setAttribute('class','img_div')
         div.innerHTML = `<img src='img/1-${i}.jpg' />`

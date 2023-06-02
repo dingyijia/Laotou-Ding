@@ -8,16 +8,20 @@ body {
     width: 100%;
     height: 100%;
 }
-
 h1{font-size:50px
 
 }
+
 #content {
     width: 100%;
     height: 100%;
     background-color: #b3b3b3;
     display: flex;
     position: relative;
+}
+.v{
+    font-family: 'SourceCodeVariable-Italic'; 
+    color: rgb(255, 0, 242);
 }
 
 .content_left {
@@ -39,14 +43,14 @@ h1{font-size:50px
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    font-family: 'SourceCodeVariable-Italic';
 }
 
 .content_text{
-    width: 90%;
+    width: 88%;
     word-break: break-all;
     margin-top: 50px;
-    font-family: 'SourceCodeVariable-Roman';
+        font-family: 'SourceCodeVariable-Roman';
+
 }
 
 .content_right {
@@ -84,36 +88,66 @@ img {
 
 .change_div{
     /* width: 600px; */
-    height: 850px;
+    bottom: 0;
+    height: 80vh;
+    transition: all 0.4s ease-in-out; /* 添加过渡效果 */
 }
 
 .box_show_img{
     max-width: 130%;
-    height:813px;
+  height:80vh;
     position: absolute;
-    top: 170px;
+    /* top: 170px; */
+    bottom: 0;
     left: 33%;
     transform: translate(-50%,0);
     /* background-color: aqua; */
+    transition: all 3s ease-in-out; /* 添加过渡效果 */
+
 }
 
 #box_show_img_line{
     max-width: 150%;
 }
 
+#box_show_video_line{
+    max-width: 150%;
+}
+
+.one_video{
+    width: 300px;
+    height: 200px;
+}
+
 .show_hide{
     display: none;
 }
 a{ text-decoration: none;
+   
+        font-family: 'SourceCodeVariable-Roman';
+   
+  
 
 }
 #green{
-    color: rgb(255, 0, 242);
-    font-family: 'SourceCodeVariable-Roman';
+    color:rgb(255, 0, 242);
 }
 h1{
     font-family: 'SourceCodeVariable-Roman';
 }
 h3{
+    width: 80%;
     font-family: 'SourceCodeVariable-Italic';
+}
+@font-face {
+	font-family: 'SourceCodeVariable-Roman';
+	src: url('../../font/SourceCodeVariable-Roman.ttf') format('truetype'),
+	     url('../../font/SourceCodeVariable-Roman.ttf') format('truetype');
+
+}
+@font-face {
+	font-family: 'SourceCodeVariable-Italic';
+	src: url('../../font/SourceCodeVariable-Italic.ttf') format('truetype'),
+	     url('../../font/SourceCodeVariable-Italic.ttf') format('truetype');
+
 }
