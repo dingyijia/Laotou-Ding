@@ -3,7 +3,7 @@
     for (let i = 1; i < 10; i++) {
         let div = document.createElement('div')
         div.setAttribute('class', 'img_div')
-        div.innerHTML = `<img src='img/1-${i}.jpg' />`
+        div.innerHTML = `<img src='img/1-${i}.JPG' />`
         imgs.appendChild(div)
     }
     let right_box = document.querySelector(".content_right")

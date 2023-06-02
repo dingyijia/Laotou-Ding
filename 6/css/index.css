@@ -109,7 +109,7 @@ a{ text-decoration: none;
 
 }
 #green{
-    color: #000000;
+    color: rgb(255, 0, 242);
     font-family: 'SourceCodeVariable-Roman';
 }
 h1{

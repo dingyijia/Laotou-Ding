@@ -62,7 +62,7 @@ body{
 }
 .bk1{
     background-repeat: no-repeat;
-    background-image: url('../iamges/brand design_画板 1.jpg');
+    background-image: url('brand design_画板 1.jpg');
     background-size: cover;
     opacity: 0.7;
     background-attachment: fixed;
@@ -72,49 +72,49 @@ body{
     background-size: cover;
     opacity: 0.7;
     background-attachment: fixed;
-    background-image: url('../iamges/book design_画板 1 副本 6.jpg');
+    background-image: url('book design_画板 1 副本 6.jpg');
 }
 .bk3{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
     background-attachment: fixed;
-    background-image: url('../iamges/photography works_画板 1 副本 6.jpg');
+    background-image: url('photography works_画板 1 副本 6.jpg');
 }
 .bk4{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
     background-attachment: fixed;
-    background-image: url('../iamges/life breeding base_画板 1 副本 14.jpg');
+    background-image: url('life breeding base_画板 1 副本 14.jpg');
 }
 .bk5{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
     background-attachment: fixed;
-    background-image: url('../iamges/D+_画板 1 副本 14.jpg');
+    background-image: url('D+_画板 1 副本 14.jpg');
 }
 .bk6{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
     background-attachment: fixed;
-    background-image: url('../iamges/subway stations and cities_画板 1 副本 14.jpg');
+    background-image: url('subway stations and cities_画板 1 副本 14.jpg');
 }
 .bk7{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
     background-attachment: fixed;
-    background-image: url('../iamges/sasa group_画板 1 副本 14.jpg');
+    background-image: url('sasa group_画板 1 副本 14.jpg');
 }
 .bk8{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
     background-attachment: fixed;
-    background-image: url('../iamges/no copying_画板 1 副本 14.jpg');
+    background-image: url('no copying_画板 1 副本 14.jpg');
 }
 .pink {
     font-family: 'SourceCodeVariable-Italic';

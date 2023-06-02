@@ -46,7 +46,7 @@ h1{font-size:50px
 }
 
 .content_text{
-    width: 90%;
+    width: 88%;
     word-break: break-all;
     margin-top: 50px;
         font-family: 'SourceCodeVariable-Roman';
@@ -88,14 +88,15 @@ img {
 
 .change_div{
     /* width: 600px; */
-    height: 850px;
+    height: 800px;
 }
 
 .box_show_img{
     max-width: 130%;
-    height:813px;
+    height:800px;
     position: absolute;
-    top: 170px;
+    /* top: 170px; */
+    bottom: 0%;
     left: 33%;
     transform: translate(-50%,0);
     /* background-color: aqua; */
@@ -125,11 +126,20 @@ a{ text-decoration: none;
 
 }
 #green{
-    color: #000000;
+    color:rgb(255, 0, 242);
 }
 h1{
     font-family: 'SourceCodeVariable-Roman';
 }
 h3{
+    width: 80%;
     font-family: 'SourceCodeVariable-Italic';
 }
+@font-face {
+	font-family: 'SourceCodeVariable-Roman';
+	src: url('../../font/SourceCodeVariable-Roman\ \(2\).ttf') format('woff'),
+	     url('../../font/SourceCodeVariable-Roman\ \(2\).ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
