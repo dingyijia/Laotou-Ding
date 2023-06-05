@@ -146,13 +146,13 @@ a{ text-decoration: none;
 }
 @font-face {
 	font-family: 'SourceCodeVariable-Roman';
-	src: url('../../font/SourceCodeVariable-Roman.ttf') format('truetype'),
-	     url('../../font/SourceCodeVariable-Roman.ttf') format('truetype');
+	src: url('font/SourceCodeVariable-Roman.ttf') format('truetype'),
+	     url('font/SourceCodeVariable-Roman.ttf') format('truetype');
 
 }
 @font-face {
 	font-family: 'SourceCodeVariable-Italic';
-	src: url('../../font/SourceCodeVariable-Italic.ttf') format('truetype'),
-	     url('../../font/SourceCodeVariable-Italic.ttf') format('truetype');
+	src: url('font/SourceCodeVariable-Italic.ttf') format('truetype'),
+	     url('font/SourceCodeVariable-Italic.ttf') format('truetype');
 
 }
