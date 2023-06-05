@@ -20,6 +20,10 @@ body {
     text-align: left;
 }
 
+.zw{
+    font-family: 'SourceCodeVariable-Roman';
+}
+
 .right {
     width: 100%;
     text-align: justify;
